@@ -1,8 +1,17 @@
+import Content from "./containers/Content";
+import Sidebar from "./containers/Sidebar";
+import Timeline from "./containers/Timeline";
+import Layout from "./layout/Layout";
+
 function App() {
   return (
-    <div className=" bg-gray-dark  " >
-      App
-    </div>
+    <>
+      <Layout>
+        <Sidebar />
+        <Content />
+        <Timeline />
+      </Layout>
+    </>
   )
 }
 
