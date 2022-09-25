@@ -15,7 +15,6 @@ function Tweetbox() {
                 userName: "@safarov_vilayat",
                 content: val,
                 timeStamp: firebase.firestore.FieldValue.serverTimestamp(),
-                image: "http://www.nasa.gov/sites/default/files/thumbnails/image/web_first_images_release.png",
                 avatar: "https://pbs.twimg.com/profile_images/1573278897201872896/wGES5QnZ_400x400.png"
             })
         };
