@@ -1,6 +1,6 @@
-import Content from "./containers/Content";
-import Sidebar from "./containers/Sidebar";
-import Timeline from "./containers/Timeline";
+import Content from "./containers/Content/Content";
+import Sidebar from "./containers/Sidebar/Sidebar";
+import TimelinePart from "./containers/Timeline/Timeline";
 import Layout from "./layout/Layout";
 
 function App() {
@@ -9,10 +9,10 @@ function App() {
       <Layout>
         <Sidebar />
         <Content />
-        <Timeline />
+        <TimelinePart />
       </Layout>
     </>
   )
 }
 
-export default App;
+export default App;;
